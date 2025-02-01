@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E48C7D4D2D4DBC6000016E23 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C7D4C2D4DBC6000016E23 /* ToDoItem.swift */; };
+		E48C7D502D4EC13600016E23 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48C7D4F2D4EC13600016E23 /* Functions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E48C7D1C2D4C102300016E23 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48C7D4C2D4DBC6000016E23 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		E48C7D4F2D4EC13600016E23 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +71,7 @@
 		E48C7D422D4DADAC00016E23 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E48C7D4F2D4EC13600016E23 /* Functions.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48C7D4D2D4DBC6000016E23 /* ToDoItem.swift in Sources */,
+				E48C7D502D4EC13600016E23 /* Functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
