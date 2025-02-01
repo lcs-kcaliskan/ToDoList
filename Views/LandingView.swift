@@ -30,7 +30,10 @@ struct LandingView: View {
                 .searchable(text: $searchText)
                 
                 HStack{
-                    
+                    TextField("Enter a to-do item", text: $newItemDescription)
+                    Button("ADD") {
+                        // Add the new to-do item
+                    }
                 }.padding(20)
     
             }
