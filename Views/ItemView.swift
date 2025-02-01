@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ItemView: View {
     
-    @Binding var currentItem: TodoItem
+    @Binding var currentItem: ToDoItem
     
     var body: some View {
         Label(
             title: {
-                Text((currentItem.title)) },
+                TextField("Enter a to-do item", text: $currentItem.title, axis: .vertical) },
             icon: {
                 Image(systemName: currentItem.done == true ? "checkmark.circle" : "circle")
                 //Tap the mark as done
