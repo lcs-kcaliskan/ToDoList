@@ -23,6 +23,9 @@ struct LandingView: View {
         NavigationView {
             VStack {
                 List{
+                    Text("Study for Chemistry quiz")
+                    Text("Finish Computer Science Assignment")
+                    Text("Go for a run around campus")
                 }
                 .searchable(text: $searchText)
                 

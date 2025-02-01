@@ -43,6 +43,8 @@
 			isa = PBXGroup;
 			children = (
 				E48C7D1E2D4C102300016E23 /* ToDoList */,
+				E48C7D422D4DADAC00016E23 /* Helpers */,
+				E48C7D412D4DAD8000016E23 /* Model */,
 				E48C7D382D4C112000016E23 /* Views */,
 				E48C7D342D4C110300016E23 /* Preview Content */,
 				E48C7D1D2D4C102300016E23 /* Products */,
@@ -55,6 +57,20 @@
 				E48C7D1C2D4C102300016E23 /* ToDoList.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		E48C7D412D4DAD8000016E23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E48C7D422D4DADAC00016E23 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
