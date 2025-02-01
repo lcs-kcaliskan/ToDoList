@@ -24,11 +24,9 @@ struct LandingView: View {
             VStack {
                 List{
                     
-                    ItemView(title: "Study for Chemistry Quiz", done: false)
-                    
-                    ItemView(title: "Finish computer Science Assignment", done: true)
-                    
-                    ItemView(title: "Go for a run around campus", done: false)
+                    ItemView(currentItem: firstItem)
+                    ItemView(currentItem: secondItem)
+                    ItemView(currentItem: thirdItem)
 
                 }
                 .searchable(text: $searchText)
@@ -50,17 +48,5 @@ struct LandingView: View {
     LandingView()
 }
 
-struct ItemView: View {
-    
-    let title: String
-    let done: Bool
-    
-    var body: some View {
-        Label(
-            title: {
-                Text((title)) },
-            icon: {
-                Image(systemName: done == true ? "checkmark.circle" : "circle")
-            })
-    }
-}
+
+
